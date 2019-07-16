@@ -1,30 +1,11 @@
-* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color:#ff99ff;
-  border: .05rem solid #fff;
-}
-
 /*
  * Base structure
  */
-
 html,
 body {
-  height: 100%;
-  background-color: #333;
+  height: 42%;
+  background-color:#333;
 }
-
 body {
   display: -ms-flexbox;
   display: flex;
@@ -32,22 +13,18 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
-
 .cover-container {
   max-width: 100em;
 }
-
 /*
  * Header
  */
 .masthead {
   margin-bottom: -50rem;
 }
-
 .masthead-brand {
   margin-bottom: -10rem;
 }
-
 .nav-masthead .nav-link {
   padding: 0rem 0;
   font-weight: 700;
@@ -55,21 +32,17 @@ body {
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
-
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
-
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
 }
-
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
 }
-
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -78,22 +51,26 @@ body {
     float: right;
   }
 }
-
 /* carousel */
-
-body {
- padding-top: 5rem;
-}
+ body {
+    padding-top: 5rem;
+    background-color: white;
+ }
 .starter-template {
+font-style: italic;
  padding: 3rem 1.5rem;
  text-align: center;
+ color: white;
 }
-
-
-.carousel-caption {
- color: white
+.carousel-caption-1 {
+ color: white;
+ text-align: left;
 }
-
+.carousel-caption-2 {
+ color: white;
+ text-align: left;
+}
 .carousel-caption-3 {
- color: black
+ color: white;
+ text-align: left
 }
